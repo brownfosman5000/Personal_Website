@@ -1,0 +1,150 @@
+/********************************TAG SELECTORS***************/
+
+body{
+    margin: 0px;
+    font-family: 'Sedgwick Ave Display', sans-serif;
+    text-align: center;
+    
+}
+
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Tilt Prism', sans-serif; 
+    font-size: 5.625em;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Tilt Prism', sans-serif; 
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Tilt Prism', sans-serif; 
+    color: #11999E;
+}
+
+span{
+    text-decoration: underline;
+}
+
+
+hr{
+    border-style: dotted none none none;
+    border-top-width: 5px;
+    width: 5%;
+    color: #6ECCAF;
+    margin: 50px auto 50px auto;
+    
+    
+}
+
+a:hover {
+    color:#ffffff;
+}
+/********************************CLASS SELECTORS***************/
+.top-container{
+    background-color: #F3ECB0;
+    padding-top: 200px;
+    position: relative;
+}
+
+.middle-container{
+    padding-top: 40px;  
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 3rem;
+}
+
+
+/*instead of pushing the image down shift the whole container down because background are the elements you should move around first*/
+.black-dude-image{
+    width: 150px; 
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 100px;
+}
+
+.intro-message{
+    width: 30%;
+    margin:auto;
+}
+
+.my-skills-header{
+    margin-top: 60px;
+}
+.skill-row{
+    width: 50%;
+    margin: 75px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.mpc-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.fitness-gif{
+    float: right;
+    margin-left: 30px;
+}
+
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #a3d4d4);
+    background-image: -moz-linear-gradient(top, #66BFBF, #a3d4d4);
+    background-image: -ms-linear-gradient(top, #66BFBF, #a3d4d4);
+    background-image: -o-linear-gradient(top, #66BFBF, #a3d4d4);
+    background-image: linear-gradient(to bottom, #66BFBF, #a3d4d4);
+    -webkit-border-radius: 49;
+    -moz-border-radius: 49;
+    border-radius: 49px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 9px 16px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px auto 60px auto;
+
+}
+
+  
+.btn:hover {
+    background: #66BFBF;
+    text-decoration: none;
+}
+
+
+.footer-link{
+    margin-left: 20px;
+    color: #11999E;
+    text-decoration: none;
+}
+
+.trademark{
+    color: #EAF6F6;
+}
+
+
+/*color palet #344D67
+#6ECCAF
+#ADE792
+#F3ECB0
+*/
